@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyCovid Tracker</title>
+</head>
+<body>
+<form style="width: 100vw; display: flex; justify-content: center;" method="post" action="/user">
+<input name = "user" required placeholder="Country">
+<input type="submit" value="Submit" style="background-color: white; color: grey;">
+</form>
+<h3 style="width: 100vw; display: flex; justify-content: center;">{{ error }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #F73737;">{{ country }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #FF5D5B;">{{ ccountry }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #D7143A;">{{ dccountry }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #F73737;">{{ code }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #FF5D5B;">{{ ccode }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #D7143A;">{{ dccode }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #F73737;">{{ total_confirm }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #FF5D5B;">{{ ctotal_confirm }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #D7143A;">{{ dctotal_confirm }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #F73737;">{{ total_deaths }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #FF5D5B;">{{ ctotal_deaths }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #D7143A;">{{ dctotal_deaths }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #F73737;">{{ total_recov }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #FF5D5B;">{{ ctotal_recov }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #D7143A;">{{ dctotal_recov }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #F73737;">{{ new_confirm }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #FF5D5B;">{{ cnew_confirm }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #D7143A;">{{ dcnew_confirm }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #F73737;">{{ new_die }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #FF5D5B;">{{ cnew_die }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #D7143A;">{{ dcnew_die }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #F73737;">{{ new_reco }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #FF5D5B;">{{ cnew_reco }}</h3>
+<h3 style="width: 100vw; display: flex; justify-content: center; font-family: sans-serif; color: #D7143A;">{{ dcnew_reco }}</h3>
+<a style="display: flex; justify-content: flex-end; align-items: flex-end;" href="#">Made with <span style="color: red;">♥</span> by AV.</a>
+</body>
+</html>
